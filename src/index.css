@@ -60,6 +60,8 @@
 body {
   @apply bg-[#FAFAFA] dark:bg-dark-bg text-gray-800 dark:text-dark-text transition-colors duration-200;
   -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+  margin: 0;
 }
 
 button {
